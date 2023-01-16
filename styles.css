@@ -14,7 +14,7 @@
     background-color: black;
     height: 100vh;
     color: white;
-    width: 20rem;
+    width: 22rem;
 }
 
 .logo-text {
@@ -53,7 +53,7 @@ li {
     display: grid;
     height: 100vh;
     color: black;
-    grid-template-rows: 30% 80%;
+    grid-template-rows: 20% 80%;
 }
 
 .header {
@@ -163,3 +163,54 @@ h4 {
 }
 
 /* Trending/Announcements */
+
+.ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+
+
+.ann-trend, .ann-card {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: pink;
+    margin-top: 30px;
+}
+
+.ann-text {
+    padding: 10px 15px;
+}
+
+.ann-text h6 {
+    font-size: 16px;
+}
+
+.ann-text p {
+    font-size: 12px;
+}
+
+.divider {
+    border: 2px solid black;
+    width: 80%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.trend-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trend-image-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 25px;
+}
+
+.trend-text {
+    margin-left: 20px;
+}
